@@ -13,7 +13,7 @@ export let options = {
             executor: 'constant-arrival-rate',
             rate: 60,
             timeUnit: '1m',
-            duration: '10s',
+            duration: '12s',
             preAllocatedVUs: 10,
             exec: 'contacts', // this scenario is executing different code than the one above!
         },
